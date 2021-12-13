@@ -29,7 +29,7 @@ a {
 .navbar{
     box-shadow: var(--box-shadow);
 }
-.navbar .logo{
+.logo{
     width: 160px;
 }
 .navbar .nav-link{
@@ -196,4 +196,9 @@ form .form-control{
     border: transparent;
     border-radius: 4px;
     background-color: rgba(0,0,0,0.05);
+}
+
+.footer-top{
+    padding: 90px 0px;
+    background-color: var(--dark);
 }
