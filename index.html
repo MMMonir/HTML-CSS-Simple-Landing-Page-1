@@ -474,21 +474,21 @@
                     <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
                 </div>
             </div>
-            <form action="" class="row gy-3 justify-content-center">
+            <form action="javascript:handleEmail()" class="row gy-3 justify-content-center">
                 <div class="col-md-5">
-                    <input type="text" class="form-control" id="" placeholder="Full Name">
+                    <input type="text" class="form-control" id="nameInput" placeholder="Full Name" required>
                 </div>
                 <div class="col-md-5">
-                    <input type="email" class="form-control" id="" placeholder="Enter E-mail">
+                    <input type="email" class="form-control" id="emailInput" placeholder="Enter E-mail" required>
                 </div>
                 <div class="col-md-10">
-                    <input type="text" class="form-control" id="" placeholder="Enter Subject">
+                    <input type="text" class="form-control" id="subjectInput" placeholder="Enter Subject">
                 </div>
                 <div class="col-md-10">
-                    <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Enter Message"></textarea>
+                    <textarea name="" id="msgInput" cols="30" rows="5" class="form-control" placeholder="Enter Message"></textarea>
                 </div>
                 <div class="col-md-10 d-grid">
-                    <button class="btn btn-primary">Contact</button>
+                    <button type="submit" class="btn btn-primary">Contact</button>
                 </div>
             </form>
         </div>
@@ -552,6 +552,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="js/email.js"></script>
 </body>
 
 </html>
