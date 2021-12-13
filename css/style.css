@@ -152,6 +152,9 @@ section{
     color: var(--primary);
     margin-right: 5px;
 }
+.pricing .bx-x-circle{
+    color: red;
+}
 .pricing ul li{
     margin-top: 10px;
     display: flex;
