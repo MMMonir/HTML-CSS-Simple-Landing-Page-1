@@ -190,10 +190,10 @@ section{
 }
 
 form input.form-control{
-    height: 50px;
+    height: 56px;
 }
 form .form-control{
     border: transparent;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: rgba(0,0,0,0.05);
 }
