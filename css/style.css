@@ -202,3 +202,12 @@ form .form-control{
     padding: 90px 0px;
     background-color: var(--dark);
 }
+.footer-top a{
+    color: var(--body);
+}
+.footer-top a:hover{
+    color: #fff;
+}
+.footer-bottom{
+    background-color: #242933;
+}
