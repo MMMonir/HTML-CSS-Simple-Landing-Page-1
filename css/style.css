@@ -149,8 +149,10 @@ section{
 }
 .pricing i{
     font-size: 20px;
-    color: var(--primary);
     margin-right: 5px;
+}
+.pricing .bxs-check-circle{
+    color: var(--primary);
 }
 .pricing .bx-x-circle{
     color: red;
