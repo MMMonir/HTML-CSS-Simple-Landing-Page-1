@@ -147,3 +147,13 @@ section{
 .project:hover img{
     transform: scale(1.1);
 }
+.pricing i{
+    font-size: 20px;
+    color: var(--primary);
+    margin-right: 5px;
+}
+.pricing ul li{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
