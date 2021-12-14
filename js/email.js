@@ -19,6 +19,9 @@ function handleEmail(){
             form.reset();
             status.classList.add("success");
             status.innerHTML = "Successfully Sended";
+            setInterval(function() {
+                if(res.status === 200) { location.reload() }
+          }, 4000);
         }
         else{ 
             status.classList.add("error");

@@ -209,7 +209,7 @@ form .form-control{
     color: red;
     animation: status 4s ease forwards;
 }
-@keyframes status {
+@keyframes status.success {
     0% {
       opacity: 1;
       pointer-events: all;
