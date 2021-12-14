@@ -30,7 +30,7 @@ a {
     box-shadow: var(--box-shadow);
 }
 .logo{
-    width: 160px;
+    width: 90px;
 }
 .navbar .nav-link{
     font-size: 14px;
