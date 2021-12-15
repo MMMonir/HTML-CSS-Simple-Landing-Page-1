@@ -29,6 +29,10 @@ a {
 .navbar{
     box-shadow: var(--box-shadow);
 }
+
+.nav-link.active, .nav-item .nav-link.active {
+    color: #000;
+}
 .logo{
     width: 90px;
     height: 40px;
